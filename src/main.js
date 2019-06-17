@@ -17,4 +17,4 @@ app.post('/', async function handleEncrypt(req, res, next) {
     res.send(result);
 });
 
-app.listen(3000, () => console.log('Example app listening on 3000'));
+app.listen(3000, () => console.log(`App listening on 3000 PID: ${process.pid}`));

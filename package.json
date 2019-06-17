@@ -1,0 +1,21 @@
+{
+  "name": "express-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "debug": "nodemon --inspect src/main.js"
+  },
+  "keywords": [
+    "nodejs",
+    "debug"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "4.17.1"
+  },
+  "devDependencies": {
+    "body-parser": "1.19.0"
+  }
+}
